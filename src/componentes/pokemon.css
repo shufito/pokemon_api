@@ -1,0 +1,5 @@
+.card-img-top {
+    margin-top: 7px;
+    background-color: hsla(0, 0%, 100%, 0.4);
+    border-radius: 50%;
+  }
