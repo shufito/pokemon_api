@@ -14,7 +14,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Pokedex/>}/>
-        <Route path="pokemon_api/:taskTittle" element={<Pokemondetails />} />
+        <Route path='/pokemon_api' element={<Pokedex/>}/>
+        <Route path="/pokemon_api/:taskTittle" element={<Pokemondetails />} />
       </Routes>  
       <Footer/>
     </Router>
