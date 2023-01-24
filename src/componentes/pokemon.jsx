@@ -7,7 +7,7 @@ const Pokemon = ({details} ) => {
     const navigate = useNavigate();
     
     const handleClickCard = () => {
-      navigate(`/${details.name}`); 
+      navigate(`/pokemon_api/${details.name}`); 
     }  
 
     if (details === null) {
