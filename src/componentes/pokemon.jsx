@@ -17,9 +17,9 @@ const Pokemon = ({details} ) => {
     return (  
       <>
       <div className='col'>   
-        <div className={`card h-100 text-center px-2 bounce ${details.types[0].type.name}`} onClick={handleClickCard}>
+        <div className={`card h-100 shadow-sm text-center px-2 bounce ${details.types[0].type.name}`} onClick={handleClickCard}>
             <img src={details.sprites.front_default} className='card-img-top img-fluid' alt={details.name}/>
-            <div className='card-body'>
+            <div className='card-body text-white'>
                 <h5 className="card-title">{details.name}</h5>
                 <p className="card-text">
                   Tipo: {details.types.map(typeInfo => typeInfo.type.name).join(" | ")}
