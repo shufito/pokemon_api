@@ -7,7 +7,7 @@ const Pokemon = ({details} ) => {
     const navigate = useNavigate();
     
     const handleClickCard = () => {
-      navigate(`/pokemon_api/${details.name}`); 
+      navigate(`/pokemon_api/${details.id}`); 
     }  
 
     if (details === null) {
@@ -18,11 +18,11 @@ const Pokemon = ({details} ) => {
       <>
       <div className='col'>   
         <div className={`card h-100 shadow-sm text-center px-2 bounce ${details.types[0].type.name}`} onClick={handleClickCard}>
-            <img src={details.sprites.front_default} className='card-img-top img-fluid' alt={details.name}/>
+            <img src={details.sprites.other["official-artwork"].front_default} className='img-fluid' alt={details.name}/>
             <div className='card-body text-white'>
                 <h5 className="card-title">{details.name}</h5>
                 <p className="card-text">
-                  Tipo: {details.types.map(typeInfo => typeInfo.type.name).join(" | ")}
+                  {details.types.map((typeInfo) => typeInfo.type.name).join(" | ")}
                 </p> 
             </div>
         </div>  

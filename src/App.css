@@ -6,19 +6,19 @@ body{
 }
 
 .fire {
-	background-color: rgb(245, 125,  49);
+	background-color: rgb(253, 125, 36);
 }
 
 .grass {
-	background-color: rgb(116, 203,  72);
+	background-color: rgb(155, 204, 80);
 }
 
 .electric {
-	background-color: rgb(249, 207,  48);
+	background-color: rgb(238, 213, 53);
 }
 
 .water {
-	background-color: rgb(100, 147, 235);
+	background-color: rgb(69, 146, 196);
 }
 
 .ice {
@@ -38,11 +38,11 @@ body{
 }
 
 .poison {
-	background-color: rgb(164,  62, 158);
+	background-color: rgb(185, 127, 201);
 }
 
 .bug {
-	background-color: rgb(167, 183,  35);
+	background-color: rgb(114, 159, 63);
 }
 
 .dragon {

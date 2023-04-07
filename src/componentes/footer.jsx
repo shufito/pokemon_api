@@ -6,7 +6,6 @@ const Footer = () => {
         <footer className="d-flex flex-wrap justify-content-around justify-content-md-between align-items-center py-3 my-4 border-top">
             <div className="col-md-4 align-items-center">
                 <a className="mb-3 mb-md-0 text-light text-decoration-none d-block" href="https://www.linkedin.com/in/jo%C3%A3o-victor-silva-profissional/">© 2022 João Victor</a>
-                <a className="mb-3 mb-md-0 text-light text-decoration-none d-block" href="https://www.flaticon.com/free-icons/pokeball" title="pokeball icons">Pokeball icons created by Darius Dan - Flaticon</a>
             </div>
 
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
