@@ -28,7 +28,7 @@ if(dados.length === 0 ){
                 <div className="col-lg-6 text-center text-lg-start fundo-img mt-0">
                     <img src={dados.data.sprites.other["official-artwork"].front_default} alt="ok" className="w-100 imagem-fluid"/>
                 </div>
-                <div className="col-md-12 mx-auto col-lg-6 mt-0">
+                <div className="col-md-12 mx-auto col-lg-6 mt-4 mt-lg-0">
                     <div className='row row-cols-2'>
                         <div className='col-12'>
                             <h2 className='display-6 fw-bold '>
