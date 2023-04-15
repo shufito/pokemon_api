@@ -64,3 +64,9 @@ body{
 .normal {
 	background-color: rgb(170, 166, 127);
 }
+.dark{
+	background-color: rgb(112, 112, 112);
+}
+.ghost{
+	background-color: rgb(123, 98, 163);
+}

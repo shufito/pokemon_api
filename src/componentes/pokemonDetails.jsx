@@ -28,7 +28,7 @@ if(dados.length === 0 ){
                 <div className="col-lg-6 text-center text-lg-start fundo-img mt-0">
                     <img src={dados.data.sprites.other["official-artwork"].front_default} alt="ok" className="w-100 imagem-fluid"/>
                 </div>
-                <div className="col-md-12 mx-auto col-lg-6 mt-4 mt-lg-0">
+                <div className="col-lg-6 col-md-12 mx-auto mt-2 mt-lg-0">
                     <div className='row row-cols-2'>
                         <div className='col-12'>
                             <h2 className='display-6 fw-bold '>
@@ -60,7 +60,7 @@ if(dados.length === 0 ){
                             <span>{statsInfo.stat.name}</span>
                             <div className="progress"  role="progressbar" aria-label={"label"} aria-valuenow={0}aria-valuemin={0} aria-valuemax={100} >
                                 <div className={`badge fs-6 fw-normal me-2 ${dados.data.types[0].type.name}`} style={{ width: `${((statsInfo.base_stat - 0) / (200 - 0)) * 100}%` }}>
-                                    {"label" && <span className="progress-label fw-bold" style={{left: `${((statsInfo.base_stat - 5) / (200 - 0)) * 100}%`}}>{`${statsInfo.base_stat}`}</span>}
+                                    {"label" && <span className="progress-label fw-bold" style={{left: `${((statsInfo.base_stat - 7) / (200 - 0)) * 100}%`}}>{`${statsInfo.base_stat}`}</span>}
                                 </div>
                             </div>
                         </div>
